@@ -54,8 +54,9 @@ Use [docs/ITERATION.md](docs/ITERATION.md) for the update workflow. Use [docs/PU
 
 ## License
 
-No license has been selected yet. Add `LICENSE` before the first public release if you want others to reuse, modify, or redistribute the package.
+Released under the MIT License. See [LICENSE](LICENSE).
 
 ## Status
 
 This is a research-methodology skill, not a solver library. It provides routing, checks, reference anchors, and output contracts. Agents should still verify paper metadata, repository status, APIs, and installation commands from primary sources before citation or use.
+

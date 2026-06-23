@@ -54,8 +54,9 @@ skill 目录保持精简：不放 README、不放脚本、不放 assets、不放
 
 ## License
 
-尚未选择 license。如果希望他人复用、修改或再分发这个 package，应在首次公开 release 前添加 `LICENSE`。
+本项目使用 MIT License 发布。详见 [LICENSE](LICENSE)。
 
 ## 状态
 
 这是一个研究方法论 skill，不是求解器代码库。它提供任务路由、审查清单、参考入口和输出格式。Agent 在引用论文、安装代码库或复现实验前，仍应从 primary sources 验证论文信息、仓库状态、API 和安装命令。
+

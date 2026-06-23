@@ -21,9 +21,7 @@ The skill folder must remain directly copyable into an agent runtime. Keep relea
 
 1. Use the public GitHub repository `jimengda98/game-research-skill`: https://github.com/jimengda98/game-research-skill.
 2. Initialize local git if needed, add remote `origin`, then push the repository contents as-is.
-3. Add a license after choosing the reuse policy:
-   - MIT or Apache-2.0 for broad reuse as an agent/software package.
-   - CC-BY-4.0 if treating the repository mainly as research documentation.
+3. License is MIT. Keep `LICENSE` in the repository root and mention it in the README pair.
 4. Add repository topics: `game-theory`, `multi-agent-learning`, `marl`, `psro`, `equilibrium`, `codex-skill`, `ai-agents`.
 5. Publish `v0.1.0` through GitHub Releases after validation passes.
 6. Add `CITATION.cff` only after author name, citation title, versioning policy, and optional DOI policy are decided.
@@ -77,7 +75,7 @@ Do not publish the repository as a solver library unless scripts, tests, and rep
 
 ## Initial Push Commands
 
-Run from the repository root after choosing whether to add a license:
+Run from the repository root:
 
 ```powershell
 git init
@@ -89,4 +87,5 @@ git push -u origin main
 ```
 
 If the remote already contains files, inspect and reconcile them before pushing.
+
 
