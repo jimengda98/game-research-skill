@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Research Methodologist"
+  short_description: "Research methods for games and multi-agent learning"
+  default_prompt: "Use $game-research-methodologist to evaluate a game-theoretic claim, design an experiment, or find canonical papers and code."
