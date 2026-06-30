@@ -16,6 +16,7 @@ game-research-methodologist/
   agents/openai.yaml
   references/
     research-workflows.md
+    model-algorithm-selection.md
     game-taxonomy-and-methods.md
     papers-and-code.md
     review-and-writing.md

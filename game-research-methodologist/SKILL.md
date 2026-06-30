@@ -24,6 +24,7 @@ State any missing field that affects the answer. Do not replace the user's game 
 Load only the needed reference:
 
 - `references/research-workflows.md`: diagnostic memo, experiment plan, implementation handoff, paper review, and literature/code lookup formats.
+- `references/model-algorithm-selection.md`: choose a game model and matching exact, approximate, or learning algorithm for a research problem.
 - `references/game-taxonomy-and-methods.md`: model taxonomy, solution concepts, method selection, and metric selection.
 - `references/papers-and-code.md`: seed papers, benchmarks, libraries, and repository anchors.
 - `references/review-and-writing.md`: claim audit, review checks, incrementality diagnosis, and story repair.
@@ -32,6 +33,7 @@ Load only the needed reference:
 ## Quality Bar
 
 - Separate assumptions, claims, metrics, and feasibility.
+- Choose the game model before choosing the algorithm. If multiple models fit, state the tradeoff and the validation consequence.
 - Reject unsupported equilibrium/convergence language unless the game model, strategy class, solution concept, and verification method are clear.
 - Treat win rate and average return as task-performance metrics, not equilibrium-quality evidence.
 - For PSRO/self-play, require a meta-game solver, response oracle, payoff-estimation protocol, stopping rule, and population evaluation plan.
@@ -45,6 +47,7 @@ Load only the needed reference:
 Choose the closest format:
 
 - Diagnostic memo: classification, supported claims, weak assumptions, missing metrics, fixes.
+- Model/algorithm recommendation: candidate model, chosen model, algorithm family, validation metric, fallback baseline.
 - Experiment plan: game/environment, baselines, solver/oracle, metrics, ablations, sanity checks.
 - Implementation handoff: minimal exact case, trusted comparison, scaling path, acceptance tests.
 - Paper review: findings first, claim risks, experiment gaps, wording fixes.

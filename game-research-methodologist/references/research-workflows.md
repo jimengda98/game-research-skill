@@ -34,6 +34,21 @@ For PSRO, include meta-game solver, payoff-table estimation, best-response oracl
 
 For MARL, include CTDE/DTDE assumptions, centralized training information, decentralized execution interface, and whether evaluation is per-policy, per-population, or per-agent.
 
+## Model and Algorithm Recommendation
+
+Use when the user asks what game model to use, what algorithm should solve it, or how to justify a modeling route.
+
+| Section | Required content |
+|---------|------------------|
+| Candidate models | Plausible models and why each could fit |
+| Recommended model | The model that best matches interaction, information, payoff, and scale |
+| Rejected alternatives | Why close alternatives are weaker or require different assumptions |
+| Algorithm family | Exact method for small cases and approximate/learning method for scale |
+| Validation metrics | Equilibrium, regret, robustness, return, or coalition-stability checks |
+| Fallback baseline | Small exact solver, random/uniform policy, tabular method, or trusted benchmark |
+
+Use `model-algorithm-selection.md` for the detailed decision matrix.
+
 ## Implementation Handoff
 
 Use for algorithm implementation or validation planning.

@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added model and algorithm selection reference for mapping research situations to game models, solver families, learning algorithms, validation metrics, and fallback baselines.
+- Updated the skill route and README file tree to expose model/algorithm recommendation as a first-class workflow.
+
 ## v0.1.0 - Initial Public Release
 
 - Added `game-research-methodologist` skill package.

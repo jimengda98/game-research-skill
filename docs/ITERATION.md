@@ -37,6 +37,7 @@ Run these after meaningful changes:
 1. Paper review: “Review this MARL paper claim that the learned policy is Nash.”
 2. Experiment design: “Design experiments for a PSRO/self-play method in a general-sum game.”
 3. Literature/code lookup: “Find typical papers and codebases for exploitability evaluation in games.”
+4. Model/algorithm selection: “Which game model and algorithm should solve a hidden-information multi-agent pursuit problem?”
 
 Expected behavior:
 

@@ -37,6 +37,7 @@ Agent 自行调研并更新文档时，按以下规则执行：
 1. 论文审查：“Review this MARL paper claim that the learned policy is Nash.”
 2. 实验设计：“Design experiments for a PSRO/self-play method in a general-sum game.”
 3. 文献/代码查找：“Find typical papers and codebases for exploitability evaluation in games.”
+4. 模型/算法选择：“Which game model and algorithm should solve a hidden-information multi-agent pursuit problem?”
 
 期望行为：
 
