@@ -1,6 +1,6 @@
 ---
 name: game-research-methodologist
-description: Game research methodology for AI agents. Use when classifying game-theoretic models, evaluating equilibrium or regret claims, designing game/MARL/self-play/PSRO experiments, choosing metrics such as exploitability or NashConv, planning implementation checks, reviewing papers, revising research narratives, locating canonical papers/codebases, publishing the skill, or maintaining bilingual research documentation.
+description: Game research methodology for AI agents. Use for game model selection, algorithm choice, equilibrium/regret claim audits, MARL/self-play/PSRO experiment design, validation metrics, paper review, and canonical paper/code lookup.
 ---
 
 # Game Research Methodologist
@@ -28,7 +28,7 @@ Load only the needed reference:
 - `references/game-taxonomy-and-methods.md`: model taxonomy, solution concepts, method selection, and metric selection.
 - `references/papers-and-code.md`: seed papers, benchmarks, libraries, and repository anchors.
 - `references/review-and-writing.md`: claim audit, review checks, incrementality diagnosis, and story repair.
-- `references/maintenance-and-publishing.md`: publication checklist, research refresh workflow, bilingual documentation policy, and versioning.
+- `references/maintenance-and-publishing.md`: publication checklist, research refresh workflow, documentation policy, and versioning.
 
 ## Quality Bar
 
@@ -40,7 +40,7 @@ Load only the needed reference:
 - For MARL, distinguish CTDE, decentralized execution, value decomposition, actor-critic, self-play, and empirical game analysis.
 - For Shapley/core work, separate contribution attribution from coalition stability.
 - For paper/code lookup, provide seed anchors and mark facts that need primary-source verification before citation, installation, or reproduction.
-- For maintenance or publication, keep the skill folder copyable; put public-facing bilingual docs at repository level.
+- For maintenance or publication, keep the skill folder copyable; put public-facing docs at repository level.
 
 ## Outputs
 
@@ -52,6 +52,6 @@ Choose the closest format:
 - Implementation handoff: minimal exact case, trusted comparison, scaling path, acceptance tests.
 - Paper review: findings first, claim risks, experiment gaps, wording fixes.
 - Literature/code lookup: topic map, seed papers, codebases, verification notes, starting recommendation.
-- Maintenance/publication note: changed files, validation status, bilingual sync, release readiness.
+- Maintenance/publication note: changed files, validation status, docs sync, release readiness.
 
 Write directly. Avoid process narration, broad textbook summaries, and claims that cannot be checked.

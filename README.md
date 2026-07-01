@@ -2,7 +2,7 @@
 
 [中文说明](README.zh-CN.md)
 
-A bilingual Codex-style skill package for game-theoretic research work. It helps AI agents classify games, audit equilibrium claims, design game/MARL/self-play/PSRO experiments, select validation metrics, review papers, and find canonical papers or codebases.
+A Codex-style skill for game research: model selection, algorithm choice, experiment design, and paper review.
 
 Repository: `jimengda98/game-research-skill`
 
@@ -41,7 +41,6 @@ The skill folder stays lean: no README, no scripts, no assets, and no personal l
 - Plan implementation checks for matrix games, extensive-form games, or MARL baselines.
 - Find seed papers and codebases for game theory and multi-agent learning.
 - Repair paper framing when game-theoretic claims are vague or under-tested.
-- Maintain and publish the skill with bilingual documentation.
 
 ## Installation
 

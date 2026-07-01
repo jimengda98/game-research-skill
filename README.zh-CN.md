@@ -2,7 +2,7 @@
 
 [English README](README.md)
 
-这是一个带中英文文档的 Codex 风格 skill 包，用来帮助 AI Agent 分类博弈模型、审查均衡声明、设计 game/MARL/self-play/PSRO 实验、选择验证指标、评审论文，并定位典型论文和代码库。
+面向博弈研究的 Codex skill：用于模型选择、算法选择、实验设计和论文审查。
 
 仓库：`jimengda98/game-research-skill`
 
@@ -41,7 +41,6 @@ skill 目录保持精简：不放 README、不放脚本、不放 assets、不放
 - 为矩阵博弈、扩展式博弈或 MARL baseline 规划实现验证。
 - 查找博弈论和多智能体学习的种子论文与代码库。
 - 修复论文中过于宽泛或缺少验证的博弈论叙事。
-- 维护并发布带中英文文档的 skill。
 
 ## 安装
 
